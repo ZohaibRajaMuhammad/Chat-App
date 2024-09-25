@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="bg-teal-500 h-[10vh] w-full flex pl-10 items-center">
+        <h1 class="text-2xl font-bold "> Chat App</h1>
+    </nav>
+
+    <div id="messages" class="h-[82vh] w-full bg-teal-100 flex flex-col"></div>
+
+    <footer class="bg-teal-300 h-[10vh] w-full flex justify-center items-center">
+
+         <input type="text" placeholder="Type a Message" id="msg" class="h-[7vh]  rounded-md border border-black w-[70vw] p-3 text-xl">
+         <button onclick="handelSend()" class="h-[7vh] bg-teal-800 p-1 text-xl ml-2 px-5 rounded-md text-white">Send</button>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
